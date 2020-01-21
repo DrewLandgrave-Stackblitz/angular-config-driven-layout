@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ComponentLoaderService } from './component-loader.service';
+import { ComponentLoaderService } from './component-wrapper-loader.service';
 
 describe('ComponentLoaderService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));

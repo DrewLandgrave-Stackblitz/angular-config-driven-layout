@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'advtech-wrapper',
@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./wrapper.component.scss']
 })
 export class WrapperComponent implements OnInit {
-
-  constructor() { }
+  @ViewChild(HTMLElement, { static: true })
+  public element: HTMLElement;
+  constructor(private config: string) { }
 
   ngOnInit() {
   }
 
+  loadChildren(config: any) {
+
+  }
 }

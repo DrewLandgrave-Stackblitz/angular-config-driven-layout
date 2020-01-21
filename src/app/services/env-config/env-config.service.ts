@@ -11,7 +11,7 @@ export class EnvConfigService {
       [
         {
           tag: 'advtech-panel',
-          panelTitle: 'Main Details',
+          label: 'Main Details',
           children: [
             {
               tag: 'advtech-text-input',
@@ -25,7 +25,7 @@ export class EnvConfigService {
         },
         {
           tag: 'advtech-panel',
-          panelTitle: 'SEO',
+          label: 'SEO',
           children: [
             {
               tag: 'advtech-text-input',

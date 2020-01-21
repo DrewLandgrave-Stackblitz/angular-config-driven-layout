@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { EnvConfigService } from 'src/app/services/env-config/env-config.service';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { EnvConfigService } from '../../services/env-config/env-config.service';
+import { ComponentWrapperLoaderService } from '../../services/component-wrapper-loader/component-wrapper-loader.service';
+import { MainColumnDirective } from '../../directives/main-column/main-column.directive';
 
 @Component({
   selector: 'app-example-page',
